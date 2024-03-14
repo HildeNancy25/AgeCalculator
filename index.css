@@ -13,9 +13,13 @@ body{
 
 button{
     margin-top: 2%;
-    width: 20%;
+    width: 10%;
     padding: 10px;
     background-color: rgb(103, 103, 219);
     color: white;
     border: 0px;
 } 
+
+#date{
+    width: 20%;
+}
