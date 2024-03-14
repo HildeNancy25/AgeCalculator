@@ -6,7 +6,6 @@ body{
  #container{
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
     padding: 20%;
     align-items: center;
 
