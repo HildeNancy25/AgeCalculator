@@ -11,7 +11,7 @@ function displayAge () {
     var result = today.getFullYear() - birthdate.getFullYear();
     let errormsg = AgeError.value;
     if (errormsg === ""){
-        document.getElementById("result").innerHTML = "Please make sure you have entered your age!";
+        document.getElementById("result").innerHTML = "🚨 Please make sure you entered your age!";
     } else {
         document.getElementById("result").innerHTML = "Your age is " + result + " years old";
     }
